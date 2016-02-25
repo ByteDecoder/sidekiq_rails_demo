@@ -7,3 +7,5 @@ end
 Sidekiq.configure_server do |config|
   config.redis = { :size => 3 }
 end
+
+Sidekiq::Logging.logger.level = Logger::DEBUG
