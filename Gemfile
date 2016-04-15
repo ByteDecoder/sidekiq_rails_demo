@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 ruby "2.3.0"
 
-source ENV["SIDEKIQ_SOURCE_URL"] do
-  gem 'sidekiq-pro'
-end
+# source ENV["SIDEKIQ_SOURCE_URL"] do
+#   gem 'sidekiq-pro'
+# end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
