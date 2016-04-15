@@ -4,7 +4,7 @@ class VisitorMailer < ApplicationMailer
     @email = email
     @message = message
 
-    sleep 30
+    sleep 20
 
     mail(from: @email,
          to: "josh+sidekiq@dailydrip.com",
