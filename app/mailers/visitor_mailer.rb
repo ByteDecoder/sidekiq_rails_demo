@@ -3,6 +3,9 @@ class VisitorMailer < ApplicationMailer
     @name = name
     @email = email
     @message = message
+
+    sleep 30
+
     mail(from: @email,
          to: "josh+sidekiq@dailydrip.com",
          subject: "New Visitor's Email")

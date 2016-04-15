@@ -5,7 +5,5 @@ Sidekiq.configure_client do |config|
 end
 
 Sidekiq.configure_server do |config|
-  config.redis = { :size => 3 }
+  config.redis = { :size => 5 }
 end
-
-Sidekiq::Logging.logger.level = Logger::DEBUG
