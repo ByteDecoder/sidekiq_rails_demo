@@ -7,7 +7,7 @@ class VisitorMailer < ApplicationMailer
     sleep 20
 
     mail(from: @email,
-         to: "josh+sidekiq@dailydrip.com",
+         to: "rodrigo+reyes@mailinator.com",
          subject: "New Visitor's Email")
   end
 end
