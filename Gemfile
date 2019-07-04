@@ -35,6 +35,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'sinatra', '~> 1.4', '>= 1.4.8'
+gem 'foreman', '~> 0.85.0'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -46,6 +49,9 @@ group :development, :test do
   gem 'spring'
 
   gem 'sqlite3'
+
+  gem 'letter_opener', '~> 1.7'
+  gem 'launchy', '~> 2.4', '>= 2.4.3'
 end
 
 group :production do
